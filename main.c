@@ -10,7 +10,7 @@ int main(){
 		carta1=1+rand()%(14-1+1);
 		carta2=1+rand()%(14-1+1);
 		if(carta1==1||carta1==11||carta1==12||carta1==13||carta1==14){
-		if(carta1==1||carta1==11){
+			if(carta1==1||carta1==11){
 				printf("La carta 1 es: A\n");
 				printf("Que numero quieres 1 o 11?\n");
 				scanf("%i", &resp2);
